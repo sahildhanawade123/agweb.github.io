@@ -1,0 +1,391 @@
+$white:#fff;
+$yellow:#FBD214;
+$blue:#022144;
+$grey:#333333;
+$black:black;
+
+@media screen and (max-width:1205px) {
+
+
+    html{
+        font-size: 54%;
+    }
+
+    .agimg{
+        width: 13cm;
+    }
+    .agimg2{
+        width: 10cm;
+    }
+
+    // .countupmaindiv{
+    //     grid-template-columns: repeat(2,minmax(5cm,auto));
+    // }
+}
+
+
+@media screen and (max-width:1146px) {
+    
+
+    .agimg{
+        width: 12cm;
+    }
+
+    .navdiv2 ul{
+        li{
+            margin: 0 .3cm;
+        }
+    }
+
+    .countupmaindiv{
+        grid-template-columns: repeat(2,minmax(5cm,auto));
+    }
+
+    .countup {
+        .name{
+            font-size: 3rem;
+        }
+    }
+    .agimg2{
+        width: 10cm;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    html{
+        font-size: 50%;
+    }
+
+    .agimg{
+        width: 10cm;
+    }
+    
+    .agimg2{
+        width: 9cm;
+    }
+    
+    
+}
+
+@media screen and (max-width:974px) {
+
+
+    // .nav,.coverinfo{
+    //     margin: 0 .5cm;
+    // }
+
+
+    html{
+        font-size: 45%;
+    }
+
+    .agimg{
+        width: 9cm;
+    }
+
+    .agimg2{
+        width: 8cm;
+    }
+}
+
+
+@media screen and (max-width:890px) {
+    html{
+        font-size: 45%;
+    }
+    .navdiv2 ul{
+        li{
+            margin: 0 .25cm;
+        }
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:862px) {
+    .countup{
+        .name{
+            font-size: 3.5rem;
+        }
+    }
+
+
+    .contact2{
+        margin-top: 1cm;
+    }
+
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    .footerdiv{
+        grid-template-columns: 1fr;
+    }
+    .footeraboutme{
+        margin-top: .5cm;
+    }
+}
+
+
+
+
+@media screen and (max-width:835px) {
+    html{
+        font-size: 40%;
+    }
+    .navdiv2 ul{
+        li{
+            margin: 0 .2cm;
+        }
+    }
+
+    
+}
+
+
+
+@media screen and (min-width:780px) {
+    .progressbarmain{
+        // grid-column-gap: 4.5cm;
+    }
+    .skills{
+        margin-right: 1cm;
+        margin-bottom: 1cm;
+    }
+
+    .experience{
+        margin-right: 0cm;
+        margin-bottom: 1.5cm;
+    }
+
+}
+
+
+@media screen and (max-width:780px) {
+    .progressbarmain{
+        grid-template-columns: repeat(1,minmax(1cm,auto));
+    }
+    .countupmaindiv{
+        grid-template-columns: repeat(1,minmax(5cm,auto));
+    }
+
+    .countup{
+        .name{
+            font-size: .6cm;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width:740px) {
+    .nav{
+        background-color: white;
+        padding: .4cm 1cm;
+    }
+    .navdiv1{
+        z-index: 3;
+        font-size: 4rem;
+        color: $grey;
+    }
+    .navdiv2{
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+        ul li{
+        margin: 0;
+        a{
+            font-size: 0;
+        }
+        }
+        
+    }
+    .bars{
+        display: block;
+        z-index: 3;
+        color: $grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobnav{
+        transition: all 0.25s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background-color: white;
+        position: absolute;
+        left: 0;
+        width:100vw;
+        padding-bottom: .5cm;
+        z-index: 2;
+
+        ul {
+            margin-top: 9cm;
+            margin-left: 1cm;
+
+            li{
+                list-style: none;
+                line-height: 1cm;
+
+                a{
+                    text-decoration: none;
+                    color: $grey;      
+                    font-size: 3rem;
+                }
+                
+            }
+            
+        }
+
+    }
+
+
+    .coverp p{
+        margin-top: .3cm;
+    }
+
+    .aboutmediv{
+        grid-template-columns: 1fr;
+        margin: 0cm 1cm;
+    }
+    .agimg2{
+        margin-bottom: 1cm;
+        width: 7cm;
+    }
+    
+    .contentmargin{
+        margin: 2cm 1cm;
+    }
+
+    .aboutmediv{
+        margin-top: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width:675px) {
+    html{
+        font-size: 35%;
+    }
+
+    .coverp p{
+        margin-top: .2cm;
+    }
+    .aboutme .aboutmepara{
+        font-size: 4rem;
+    }
+}
+
+
+
+@media screen and (max-width:580px) {
+    html{
+        font-size: 30%;
+    }
+    
+
+}
+
+
+
+
+@media screen and (min-width:510px) {
+    .footerp{
+        margin-top: -.2cm;
+    }
+}
+
+
+
+
+    
+@media screen and (max-width:510px) {
+    .coverinfo{
+        margin: 0cm .5cm;
+    }
+
+    .contentmargin{
+        margin-left: .5cm;
+        margin-right: .5cm;
+    }
+    .countupmaindiv{
+        padding: .5cm;
+        margin: 0 .3cm;
+    }
+
+    .servicesdiv{
+        margin-left: .5cm;
+        margin-right: .5cm;
+    }
+    .services{
+        // padding: .5cm;
+        margin-top: .9cm;
+    }
+    .experience{
+        margin-bottom: 1cm;
+    }
+
+    .footerdiv{
+        padding-left: .5cm;
+    }
+
+    .footeraboutmepara{
+        margin-top: -.2cm;
+    }
+    
+}
+
+@media screen and (max-width:460px) {
+    html{
+        font-size: 28%;
+    }
+    .inputbox{
+        // width: 1cm;
+        font-size: .42cm;
+    }
+}
+
+
+@media screen and (max-width:440px) {
+    html{
+        font-size: 30%;
+    }
+    .coverimg{
+        background-image: linear-gradient(to right, rgba(0,0,0,.7) 19%, rgba(0,0,0,.5) 100%) , url(./coverimg.png);
+    }
+    .nav{
+        padding-left: .7cm;
+        padding-right: .7cm;
+    }
+    
+    .coverinfo{
+        flex-direction: column-reverse;
+        margin: 0 1cm;
+    }
+    .agimg{
+        width: 4cm;
+        margin: 0 auto;
+    }
+    .agimg2{
+        width: 6cm;
+        margin-bottom: 1cm;
+    }
+
+    .coverp{
+        margin-top: .5cm;
+        text-align: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width:366px) {
+    .countup{
+        .name{
+            font-size: .5cm;
+        }
+    }
+    
+}
